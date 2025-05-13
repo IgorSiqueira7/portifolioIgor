@@ -65,13 +65,15 @@
   .imagem-container {
     grid-column: 2;  /* Segunda coluna */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+   
+    
+    padding: 50px;
     width: 50%;
   }
   
   .foto-pequena {
+    margin-left: 1000px;
+    grid-column: 2;
     width: 300px;
     height: 300px;
     border-radius: 20%;
